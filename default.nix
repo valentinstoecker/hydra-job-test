@@ -4,5 +4,6 @@ let
 in
 {
   cowsay = pkgs.cowsay;
+  openttd = pkgs.openttd;
   hello = pkgs.hello;
 }
