@@ -1,7 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -Werror
+
 %.o: %.c
-	gcc -c $^
+	$(CC) $(CFLAGS) -c $^
 
 hallo: hallo.o
-	gcc $^ -o $@
+	$(CC) $^ -o $@
 
 all: hallo
