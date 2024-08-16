@@ -2,6 +2,6 @@
 	gcc -c $^
 
 hallo: hallo.o
-	gcc $^
+	gcc $^ -o $@
 
 all: hallo
