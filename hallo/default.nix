@@ -1,7 +1,7 @@
 {stdenv, ...}:
 stdenv.mkDerivation {
   name = "hallo";
-  source = ./src;
+  src = ./src;
 
   buildPhase = ''
     make
