@@ -7,4 +7,5 @@ in
   openttd = pkgs.openttd;
   hello = pkgs.hello;
   hallo = pkgs.callPackage ./hallo {};
+  opencpn = pkgs.opencpn;
 }
